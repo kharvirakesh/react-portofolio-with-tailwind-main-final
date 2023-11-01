@@ -1,4 +1,4 @@
-export const aboutMe = [
+export const AboutMe = [
   {
     name: "Rakesh Kharvi",
     role: "Software Developer Engineer.",
@@ -10,4 +10,52 @@ export const aboutMe = [
     services:
       "Since the beginning of my journey as a web developer, I've worked for MNC corporate companies, startups and collaborated with talanted people to create digital products for both business and consumer use.",
   },
+];
+
+export const ProjectData = [
+  {
+    title: "DentaMitra - WebApp",
+    image: require("../public/dentamitra.png"),
+    backgroundColor: "#ffffff", // Background color
+    borderColor: "#000000", // Border color
+    borderRadius: "8px", // Border radius
+    description:
+      "Built a web application led by Bizydales.net using ReactJs which helps end users book appointments online. DentaMitra brings a Dentist to your home and offers 24x7 video consultation.",
+    technologies: ["React", "Node", "AntD"],
+    website: "https://dentamitra.com/",
+  },
+  {
+    title: "Makethisblue - Ecommerce WebApp",
+    image: require("../public/makethisblue.png"),
+    backgroundColor: "#ffffff", // Background color
+    borderColor: "#000000", // Border color
+    borderRadius: "8px", // Border radius
+    description:
+      "Worked on the Ecommerce project Blue-Ocean that allows you to buy and sell lab equipment, glassware, plasticware products, or services online. Responsible for UI design and development of the web application (Next Js) for the enterprise product in the business.",
+    technologies: ["Next JS", "Node", "AntD", "Redux"],
+    website: "https://makethisblue.com/",
+  },
+  {
+    title: "Proactive for her - FemTech",
+    image: require("../public/proactive.png"),
+    backgroundColor: "#ffffff", // Background color
+    borderColor: "#000000", // Border color
+    borderRadius: "8px", // Border radius
+    description:
+      "Diagnostics 2.0 Release - Post Journey and Checkout Functionalities. Led the development of Post Journey features including Checkout functionalities and My Lab tests reports. Actively participated in requirements discussions with the team to ensure alignment with project objectives. Utilized Next.js and ESLint to write clean and efficient code. Collaborative Software Development and Integration. ",
+    technologies: ["Next JS", "Typescript", "Material UI", "Redux"],
+    website: "https://proactiveforher.com/",
+  },
+  {
+    title: "Wyse Solutions Inc",
+    image: require("../public/wyse.png"),
+    backgroundColor: "#ffffff", // Background color
+    borderColor: "#000000", // Border color
+    borderRadius: "8px", // Border radius
+    description:
+      "Wyse Solutions Inc. has people onboard who come with Deep Industry experience complemented by the industry specific technical skills which happens to be a powerful combination. Developed and deployed a full-stack web application for Wyse Solutions Inc. Designed the entire front-end user interface using Next.js, enforcing strict ESLint and TypeScript for code quality and maintainability. Successfully implemented deployment strategies, managing the end-to-end development process.",
+    technologies: ["Next JS", "Typescript", "Material UI", "Redux"],
+    website: "https://wyseitsolutions.com/",
+  },
+  // Add more projects here as needed
 ];
