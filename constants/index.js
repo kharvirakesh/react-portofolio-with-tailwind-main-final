@@ -59,3 +59,63 @@ export const ProjectData = [
   },
   // Add more projects here as needed
 ];
+
+export const CertificationData = [
+  {
+    credentialId: "UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c",
+    certificateName:
+      "ChatGPT, Midjourney, AI Tools & APIs - The CompleteGuide.",
+    certificationURL:
+      "https://udemy.com/certificate/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7/",
+    issuingOrganization: "Udemy",
+    issueDate: "October-2023",
+    skills: "Prompt Engineering",
+    image:require("../public/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7-chatgpt.jpg"),
+  },
+  {
+    credentialId: "UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c",
+    certificateName:
+      "Build Responsive Real-World Websites with HTML and CSS",
+    certificationURL:
+      "https://www.udemy.com/certificate/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7/",
+    issuingOrganization: "Udemy",
+    issueDate: "October-2023",
+    skills: "Web Developement, FrontEnd, HTML, CSS, JavaScript",
+    image:require("../public/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7-realworld-html-css.jpg")
+  },
+  {
+    credentialId: "UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c",
+    certificateName:
+      "ChatGPT, Midjourney, AI Tools & APIs - The CompleteGuide.",
+    certificationURL:
+      "https://udemy.com/certificate/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7/",
+    issuingOrganization: "Udemy",
+    issueDate: "October-2023",
+    skills: "Prompt Engineering",
+    image:require("../public/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7-realworld-html-css.jpg")
+  },
+  {
+    credentialId: "UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c",
+    certificateName:
+      "ChatGPT, Midjourney, AI Tools & APIs - The CompleteGuide.",
+    certificationURL:
+      "https://udemy.com/certificate/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7/",
+    issuingOrganization: "Udemy",
+    issueDate: "October-2023",
+    skills: "Prompt Engineering",
+    image:require("../public/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7-realworld-html-css.jpg")
+  },
+  {
+    credentialId: "UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c",
+    certificateName:
+      "ChatGPT, Midjourney, AI Tools & APIs - The CompleteGuide.",
+    certificationURL:
+      "https://udemy.com/certificate/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7/",
+    issuingOrganization: "Udemy",
+    issueDate: "October-2023",
+    skills: "Prompt Engineering",
+    image:require("../public/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7-realworld-html-css.jpg")
+  },
+];
+
+
