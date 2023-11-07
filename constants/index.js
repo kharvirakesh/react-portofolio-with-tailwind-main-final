@@ -142,4 +142,5 @@ export const iconSlugs = [
   "androidstudio",
   "sonarqube",
   "figma",
+  "bitbucket",
 ];
