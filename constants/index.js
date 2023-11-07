@@ -70,52 +70,76 @@ export const CertificationData = [
     issuingOrganization: "Udemy",
     issueDate: "October-2023",
     skills: "Prompt Engineering",
-    image:require("../public/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7-chatgpt.jpg"),
+    image: require("../public/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7-chatgpt.jpg"),
   },
   {
     credentialId: "UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c",
-    certificateName:
-      "Build Responsive Real-World Websites with HTML and CSS",
+    certificateName: "Build Responsive Real-World Websites with HTML and CSS",
     certificationURL:
       "https://www.udemy.com/certificate/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7/",
     issuingOrganization: "Udemy",
     issueDate: "October-2023",
     skills: "Web Developement, FrontEnd, HTML, CSS, JavaScript",
-    image:require("../public/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7-realworld-html-css.jpg")
+    image: require("../public/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7-realworld-html-css.jpg"),
   },
   {
-    credentialId: "UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c",
-    certificateName:
-      "ChatGPT, Midjourney, AI Tools & APIs - The CompleteGuide.",
+    credentialId: "UC-eff5bea3-2d35-4af8-aala-5b7b24de894c",
+    certificateName: "Accelerated ES6 JavaScript Training",
     certificationURL:
       "https://udemy.com/certificate/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7/",
     issuingOrganization: "Udemy",
     issueDate: "October-2023",
-    skills: "Prompt Engineering",
-    image:require("../public/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7-realworld-html-css.jpg")
+    skills: "Javascript, ES6",
+    image: require("../public/UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c-js.jpg"),
   },
   {
     credentialId: "UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c",
     certificateName:
-      "ChatGPT, Midjourney, AI Tools & APIs - The CompleteGuide.",
+      "Master Redux from scratch with Redux core, Redux-toolkit, react-redux library. Latest Redux course 2023",
     certificationURL:
       "https://udemy.com/certificate/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7/",
     issuingOrganization: "Udemy",
     issueDate: "October-2023",
-    skills: "Prompt Engineering",
-    image:require("../public/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7-realworld-html-css.jpg")
-  },
-  {
-    credentialId: "UC-eff5bea3-2d35-4af8-aa1a-5b7b24de894c",
-    certificateName:
-      "ChatGPT, Midjourney, AI Tools & APIs - The CompleteGuide.",
-    certificationURL:
-      "https://udemy.com/certificate/UC-6be120f3-fba9-4eb6-a392-513641cbfdb7/",
-    issuingOrganization: "Udemy",
-    issueDate: "October-2023",
-    skills: "Prompt Engineering",
-    image:require("../public/UC-14a5f74b-c37b-4948-9a40-a82b51bebfd7-realworld-html-css.jpg")
+    skills: "Redux",
+    image: require("../public/UC-47174d3d-5777-4e78-9e5b-4a716e939d0a-redux.jpg"),
   },
 ];
 
-
+export const iconSlugs = [
+  "typescript",
+  "javascript",
+  "java",
+  "react",
+  "android",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "windows",
+  "googleanalytics",
+  "googletagmanager",
+  "redux",
+  "bootstrap",
+  "materialui",
+  "antdesign",
+  "ionic",
+  "eslint",
+  "microsoftazure",
+  "postgresql",
+  "firebase",
+  "linux",
+  "vercel",
+  "testinglibrary",
+  "jest",
+  "linkedin",
+  "git",
+  "jira",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "androidstudio",
+  "sonarqube",
+  "figma",
+];

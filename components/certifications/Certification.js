@@ -5,9 +5,11 @@ import { CertificationData } from "../../constants";
 const Certification = () => {
   return (
     <div>
-      <h3 className="text-3xl py-2 dark:text-white">License and Certifications</h3>
+      <h3 className="text-3xl py-2 dark:text-white">
+        License and Certifications
+      </h3>
 
-      {CertificationData.map((cval, index) => {
+      {CertificationData.map((cval, id) => {
         const {
           credentialId,
           certificateName,
@@ -18,7 +20,7 @@ const Certification = () => {
           image,
         } = cval;
         return (
-          <>
+          <div key={id}>
             <div className="lg:flex gap-10">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
                 <Image src={image} />
@@ -33,7 +35,7 @@ const Certification = () => {
                 <p className="text-gray-800 py-1">skills : {skills}</p>
               </div>
             </div>
-          </>
+          </div>
         );
       })}
     </div>
