@@ -5,7 +5,7 @@ import { CertificationData } from "../../constants";
 const Certification = () => {
   return (
     <div>
-      <h3 className="text-3xl py-2 dark:text-white">Certifications</h3>
+      <h3 className="text-3xl py-2 dark:text-white">License and Certifications</h3>
 
       {CertificationData.map((cval, index) => {
         const {

@@ -16,6 +16,7 @@ import React from "react";
 import Project from "../components/projects/Project";
 import Certification from "../components/certifications/Certification.js";
 import { CertificationData } from "../constants/index.js";
+import Componente from "../components/Skills/Skills.js";
 // import { DocumentPdf, getProps } from './document-pdf';
 
 export default function Home({ data }) {
@@ -61,14 +62,9 @@ export default function Home({ data }) {
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p> */}
           </div>
 
-
-          <Certification  />
+          <Project />
         </section>
         <section className="py-10">
           <div>
@@ -86,25 +82,7 @@ export default function Home({ data }) {
               programming and teaching.
             </p>
           </div>
-          <Project />
-          <div className="basis-1/3 flex-1">
-            <Image
-              className="rounded-lg object-cover"
-              width={"100%"}
-              height={"100%"}
-              layout="responsive"
-              src={web5}
-            />
-          </div>
-          <div className="basis-1/3 flex-1">
-            <Image
-              className="rounded-lg object-cover"
-              width={"100%"}
-              height={"100%"}
-              layout="responsive"
-              src={web6}
-            />
-          </div>
+          <Certification />
         </section>
       </main>
     </div>
